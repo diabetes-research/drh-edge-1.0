@@ -5,8 +5,8 @@ import {
   orchestration as orch,
   shell as sh,
   uniformResource as ur,
-} from "../../std/web-ui-content/mod.ts";
-import * as sppn from "../..//std/notebook/sqlpage.ts";
+} from "https://raw.githubusercontent.com/surveilr/std/refs/heads/main/web-ui-content/mod.ts";
+import * as sppn from "https://raw.githubusercontent.com/surveilr/std/refs/heads/main/notebook/sqlpage.ts";
 
 // custom decorator that makes navigation for this notebook type-safe
 function drhNav(route: Omit<spn.RouteConfig, "path" | "parentPath">) {

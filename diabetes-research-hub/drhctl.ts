@@ -10,7 +10,7 @@ import {
   FlexibleTextSupplierSync,
   spawnedResult,
   textFromSupplierSync,
-} from "../../universal/spawn.ts";
+} from "https://raw.githubusercontent.com/surveilr/legacy.surveilr.com/refs/heads/main/lib/universal/spawn.ts";
 
 // Constants
 const isWindows = Deno.build.os === "windows";
